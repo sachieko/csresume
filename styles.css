@@ -5,6 +5,7 @@
   --primary-color: #2c3e50;
   --secondary-color: #3498db;
   --highlight-color: #d41b81;
+  --date-color: #666;
   --text-color: #333;
   --light-gray: #ecf0f1;
   --border-color: #e0e0e0;
@@ -22,6 +23,7 @@
   --secondary-color: #1abc9c;
   --border-color: #333333;
   --card-bg: #2a2a2a;
+  --date-color: #999;
 }
 
 /* Base Styles */
@@ -99,7 +101,7 @@ body {
 }
 
 .date {
-  color: #666;
+  color: var(--date-color);
   font-style: italic;
 }
 /* Projects Items */
@@ -127,7 +129,7 @@ body {
 
 .project-date {
   font-style: italic;
-  color: #666;
+  color: var(--date-color);
   margin: 0.25rem 0;
 }
 
