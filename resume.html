@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chelsea | Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Optional: Add Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <script src="toggle.js" defer></script>
+  </head>
+  <body>
+    <div class="resume">
+      <!-- Header Section -->
+      <header class="resume-header">
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌓</button>
+        <h1 class="name">Chelsea Santucci</h1>
+        <p class="title">Web/Software Developer</p>
+        <div class="contact-info">
+          <a href="mailto:dev@yuseiko.org">dev@yuseiko.org</a> |
+          <a href="https://github.com/sachieko" target="_blank" referrerpolicy="noreferrer">GitHub {sachieko}</a> |
+          <a
+            href="https://www.linkedin.com/in/chelsea-sachieko"
+            target="_blank"
+            referrerpolicy="noreferrer"
+          >linkedin
+          </a>
+        </div>
+        <p class="contact-label">If you'd prefer to call, please email first.</p>
+      </header>
+
+      <!-- Main Content -->
+      <div class="resume-body">
+        <!-- Left Column (Skills/Education) -->
+        <div class="resume-column resume-column--left">
+          <section class="skills-section">
+            <h2 class="section-title">Skills</h2>
+            <h3>Languages</h3>
+            <ul class="skills-list">
+              <li>Typescript, JavaScript, HTML, CSS, SQL, R, Python, Ruby, Bash, Java, C#/.NET, XML</li>
+            </ul>
+            <h3>Frameworks/Libraries</h3>
+            <ul class="skills-list">
+              <li>NodeJS, React, Express, Vite, Ajax, jQuery, Sass, Bootstrap, Websockets, socket.io, Open Graph</li>
+            </ul>
+            <h3>Systems</h3>
+            <ul class="skills-list">
+              <li>Git, CLI, Linux, Windows, Android, Cloudflare</li>
+              <li>PostgreSQL, SQLite, MySQL, REST APIs</li>
+              <li>VSCode, VIM, Google Cloud Services, NPM</li>
+            </ul>
+            <h3>Testing</h3>
+            <ul class="skills-list">
+              <li>Cypress, Jest, Mocha&Chai, Storybook, Selenium Webdriver</li>
+            </ul>
+          </section>
+
+          <section class="education-section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+              <h3 class="institution">Lighthouse Labs</h3>
+              <p class="degree">Diploma - Web Development</p>
+              <p class="date">2022 - 2022</p>
+            </div>
+            <div class="education-item">
+              <h3 class="institution">University of Calgary</h3>
+              <p class="degree">B.Ed Secondary Math Education</p>
+              <p class="date">2016 - 2018</p>
+            </div>
+            <div class="education-item">
+              <h3 class="institution">University of Calgary</h3>
+              <p class="degree">B.Sc Actuarial Science, Minors: Statistics and Japanese</p>
+              <p class="date">2008 - 2012</p>
+            </div>
+          </section>
+        </div>
+
+        <!-- Right Column (Experience) -->
+        <div class="resume-column resume-column--center">
+          <section class="experience-section">
+            <h2 class="section-title">Relevant Experience</h2>
+            <div class="experience-item">
+              <h3 class="job-title">Software Developer</h3>
+              <p class="company">
+                Castle Rock Research Corporation | <span class="date">Apr.2023 - Jun.2024</span>
+              </p>
+              <ul class="job-description">
+                <li>Developed and maintained company websites using Squarespace, JavaScript, HTML, and CSS, including custom front-end enhancements.</li>
+                <li>Engineered Javascript/C#/.NET solutions and designed relational database models to support project viability and business decisions.</li>
+                <li>Led technical interviews, onboarding, and code reviews for junior developers, ensuring high-quality contributions.</li>
+                <li>Spearheaded MVP development for new projects, defining specifications and integrating with existing tech products.</li>
+                <li>Optimized SEO, discounts, and partner relationships while managing site content and graphical elements.</li>
+                <li>Conducted data analysis to track marketing metrics, generating actionable reports via structured spreadsheets.</li>
+                <li>Performed pre-deployment security and cost reviews for web services leveraging external APIs and AI.</li>
+                <li>Acted as a technical liaison between developers and leadership, ensuring clear communication on progress and goals.</li>
+              </ul>
+            </div>
+  <div class="experience-item">
+              <h3 class="job-title">Teacher</h3>
+              <p class="company">
+                Calgary Board of Education | <span class="date">May.2018 - Dec.2022</span>
+              </p>
+              <ul class="job-description">
+                <li>Implemented interactive web-based learning environments (HTML/CSS/JavaScript) to facilitate remote education, improving student engagement by 40%.</li>
+                <li>Delivered curriculum on JavaScript fundamentals and data algorithms, emphasizing real-world problem-solving and computational thinking.</li>
+                <li>Optimized workflows to manage 120+ concurrent student projects, ensuring 100% on-time delivery through agile task prioritization and feedback systems.</li>
+                <li>Acted as technical support lead, diagnosing and resolving software/hardware issues under stress and strict time constraints.</li>
+                <li>Pioneered adoption of database systems (e.g., SQL-based tools) for school operations, training 5+ colleagues in data management best practices.</li>
+                <li>Spearheaded project-based learning initiatives, guiding students through full development lifecycles (planning → execution → review) for 15+ technical projects annually.</li>
+                <li>Taught applied mathematics with a focus on algorithmic logic, laying foundations for student success in Computer Science courses.</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <section class="resume-section">
+          <div class="resume-column resume-column--right">
+            <h2 class="section-title">Technical Projects</h2>
+            <div class="project">
+              <a href="https://github.com/sachieko/shukumei" target="_blank" referrerpolicy="noreferrer"><h3 class="project-title">Shukumei Bot</h3></a>
+              <p class="project-date">2025 - Present</p>
+              <ul class="project-details">
+                <li>Designed and implemented discord bot that automates game features and a unique dice system for a Tabletop game system used in 10+ servers.</li>
+                <li>Implemented using TypeScript, Node.JS and discordjs.</li>
+              </ul>
+            </div>
+            <div class="project">
+              <a href="https://github.com/sachieko/lo5r-app" target="_blank" referrerpolicy="noreferrer"><h3 class="project-title">L5RSRD</h3></a>
+              <p class="project-date">2023 - Present</p>
+              <ul class="project-details">
+                <li>A full stack application with a backend API service that provides reference information in readable tables for various devices for a Tabletop game. Relied on 200+ times a month by its users.</li>
+                <li>Implemented using Typescript, React/Vite, React-Router, PostgreSQL, Express and NodeJS.</li>
+              </ul>
+            </div>
+            <div class="project">
+              <a href="https://github.com/sachieko/parrot-perch" target="_blank" referrerpolicy="noreferrer"><h3 class="project-title">Parrot Perch</h3></a>
+              <p class="project-date">2022</p>
+              <ul class="project-details">
+                <li>A full stack application that allowed users to create and join private rooms for simultaneous viewing of Twitch and Youtube streams with other users.</li>
+                <li>Implemented using React, NodeJS, Express and Twitch and Youtube API's.</li>
+                <li>Responsible for implementing front and back-end chat functionality and messaging, front-end styles for various devices, and websocket functionality.</li>
+              </ul>
+            </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
